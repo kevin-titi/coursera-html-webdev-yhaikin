@@ -1,0 +1,42 @@
+
+body { padding-top: 80px; } /* To offet navbar-fixed-top*/
+
+/************** Header **************/
+
+.navbar {
+    background-color: gray;
+    border-radius: 0;
+    border: 0;
+    min-height: 80px;
+  }
+
+/* Restaurant name */
+.navbar-default .navbar-brand {
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: black;
+    text-decoration: none;
+}
+
+/* Button */
+.navbar-header button.navbar-toggle {background: white;}
+
+/* Button: Dropdown */
+#nav-list { background: red; }
+#nav-list a { color:black;}
+#nav-list > .active a { background: pink; }
+#nav-list a:hover { background: white;}
+
+
+
+/************** Main Content **************/
+
+#menu-desc {
+    margin: 15px 50px;
+    background: pink;
+}
